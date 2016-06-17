@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ReactorboY/JavaScriptor/issues"
   },
-  "homepage": "https://github.com/ReactorboY/JavaScriptor#readme"
+  "homepage": "https://github.com/ReactorboY/JavaScriptor#readme",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
 }
