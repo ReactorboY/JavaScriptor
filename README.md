@@ -1,2 +1,2 @@
 # JavaScriptor
-learn to hack JavaScript 
+learn JavaScript while doing it on real apps.
