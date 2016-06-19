@@ -1,7 +1,7 @@
 {
   "name": "javascriptor",
   "version": "1.0.0",
-  "description": "learn JavaScript by creating real apps",
+  "description": "learn JavaScript by doing web developing on real framework",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/ReactorboY/JavaScriptor/issues"
   },
-  "homepage": "https://github.com/ReactorboY/JavaScriptor#readme"
+  "homepage": "https://github.com/ReactorboY/JavaScriptor#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta3"
+  }
 }
