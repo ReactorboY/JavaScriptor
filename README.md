@@ -11,3 +11,7 @@ learn JavaScript in a way that suits you.
 
 ```javascript
 npm install javascriptor
+
+then  
+```javascript
+ npm install
