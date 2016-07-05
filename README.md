@@ -11,7 +11,11 @@ learn JavaScript in a way that suits you.
 
 ```javascript
 npm install javascriptor
-
+```
 then  
 ```javascript
  npm install
+```
+Voila!.
+
+#### Now you're ready to rock the Dveloping World.
