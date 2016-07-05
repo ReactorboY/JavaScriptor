@@ -1,7 +1,7 @@
 {
   "name": "javascriptor",
   "version": "1.0.0",
-  "description": "learn JavaScript by doing web developing on real framework",
+  "description": "learn JavaScript in a way that suits you",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
