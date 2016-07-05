@@ -18,4 +18,4 @@ then
 ```
 Voila!.
 
-#### Now you're ready to rock the Dveloping World.
+#### Now you're ready to rock the Internet.
