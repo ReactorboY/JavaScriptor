@@ -6,5 +6,8 @@ learn JavaScript in a way that suits you.
 2. text Editor
    * [Atom](http://atom.io)
    * [Sublime](https://www.sublimetext.com/3)
-3. A latest Browser
+3. latest Browser
 4. Little love for language :)
+
+```javascript
+npm install javascriptor
