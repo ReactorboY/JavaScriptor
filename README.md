@@ -6,6 +6,5 @@ learn JavaScript in a way that suits you.
 2. text Editor
    * [Atom](http://atom.io)
    * [Sublime](https://www.sublimetext.com/3)
-   * Or whatever you like
 3. A latest Browser
 4. Little love for language :)
