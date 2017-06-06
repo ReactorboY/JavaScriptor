@@ -1,0 +1,27 @@
+{
+  "name": "javascriptor",
+  "version": "1.0.0",
+  "description": "learn JavaScript in a way that suits you",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReactorboY/JavaScriptor.git"
+  },
+  "keywords": [
+    "JavaScriptor",
+    "learn"
+  ],
+  "author": "Muhammad Hussain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ReactorboY/JavaScriptor/issues"
+  },
+  "homepage": "https://github.com/ReactorboY/JavaScriptor#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0"
+  }
+}
