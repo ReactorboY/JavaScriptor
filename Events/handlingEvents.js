@@ -25,4 +25,25 @@ function showAnswer(eventObj) {
 
 window.onload = init;
 
-//  page 407
+//  to handle time event
+
+function timerHandler() {
+  alert("HUrray, bc you're learning day by day")
+}
+
+setTimeout(timerHandler, 5000);
+
+var tick = true;
+
+function ticker() {
+  if(tick){
+    console.log("Tick");
+    tick = false;
+  }
+  else {
+    console.log("Tock");
+    tick = true;
+  }
+}
+
+setInterval(ticker,1000);
