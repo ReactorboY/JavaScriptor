@@ -9,11 +9,18 @@
         var map = document.getElementById("map");
         map.onmousemove = showCords;
       }
-
+      // clientX, clientY: the x (and y) position in pixels of your mouse
+      //  from the left side (and top) of the browser window.
+      // screenX, screenY: the x (and y) position in pixels of your
+      // mouse from the left side (and top) of the user’s screen.
+      // pageX, pageY: the x (and y) position in pixels of your mouse
+      // from the left side (and top) of the browser’s page
+      
       function showCords(eventObj) {
         var map = document.getElementById("coords");
-        var x = eventObj.clientX;
-        var y = eventObj.clientY;
+        //  clientX == gives
+        var x = eventObj.screenX;
+        var y = eventObj.screenY;
         map.innerHTML = "Map Coardinate: " + x + " ," + y;
       }
     </script>
