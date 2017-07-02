@@ -6,6 +6,7 @@ function pageLoadedHandler() {
 }
 
 // window.onload = pageLoadedHandler;
+
 function init() {
   var images = document.getElementsByTagName("img");
   for(var i =0; i < images.length; i++){
@@ -56,3 +57,4 @@ function ticker() {
 }
 
 setInterval(ticker,1000);
+//  429
