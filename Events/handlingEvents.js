@@ -9,7 +9,9 @@ function pageLoadedHandler() {
 function init() {
   var images = document.getElementsByTagName("img");
   for(var i =0; i < images.length; i++){
-    images[i].onclick = showAnswer;
+    // to chnage image when hover use onmouseohover insead
+    // images[i].onclick = showAnswer;
+    images[i].onmouseover = showAnswer;
   }
 }
 //  Whenever event happen it become a target and generate
@@ -21,17 +23,24 @@ function showAnswer(eventObj) {
   var name = image.id;
   name = name + ".jpg";
   image.src = name;
+  setTimeout(reblur, 2000, image);
+}
+
+function reblur(image) {
+  var name = image.id;
+  name = name + "blur.jpg";
+  image.src = name;
 }
 
 window.onload = init;
 
 //  to handle time event
 
-function timerHandler() {
-  alert("HUrray, bc you're learning day by day")
-}
-
-setTimeout(timerHandler, 5000);
+// function timerHandler() {
+//   alert("HUrray, bc you're learning day by day")
+// }
+//
+// setTimeout(timerHandler, 5000);
 
 var tick = true;
 
