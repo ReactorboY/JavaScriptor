@@ -10,12 +10,42 @@ function init() {
 
 function unblurred(eventObj) {
   // var image = document.getElementById("zero";
-  //  Anither way to get which element generated the event
+  //  Another way to get which element generated the event
   var image = eventObj.target;
   // get id of that element
   var name = image.id;
   name = name + ".jpg";
   image.src = name;
+
+  //  to reblur the image after some time
+  setTimeout(reblur,2000,image);
 }
 
-//  407
+function reblur(image) {
+  var name = image.id;
+  name = name + "blur.jpg";
+  image.src = name;
+}
+
+//  How to use setTimeout event time function
+// function timerHandler() {
+//   alert("Are you allright !");
+// }
+//
+// setTimeout(timerHandler,5000);
+//
+// //  An example of setInterval
+// var tick = true;
+// function ticker() {
+//    if(tick){
+//      console.log("Tick");
+//      tick = false;
+//    } else {
+//         console.log("Tock");
+//         tick = true;
+//     }
+// }
+//
+// setInterval(ticker,1000);
+
+//  414
